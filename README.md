@@ -39,6 +39,7 @@ This repository contains my daily C++ solutions and practice problems as part of
 - Binary Search
 
 
-## author: Chetan
+
+Author: Chetan
 
 ---

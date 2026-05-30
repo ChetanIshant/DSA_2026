@@ -317,3 +317,197 @@ int main()
     }
 }
 
+//16
+#include <iostream>
+#include <string>
+using namespace std;
+int main()
+{
+    string alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+    int n;
+    cout<<"Enter the number of lines: ";
+    cin>>n;
+    for(int i=0;i<n;i++)
+    {
+        for(int j=0;j<=i;j++)
+        {
+            cout<<alphabet[i];
+        }
+        cout<<endl;
+    }
+}
+
+//17
+#include <iostream>
+#include <string>
+using namespace std;
+int main()
+{
+    string alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+    int n;
+    cout<<"Enter the number of lines: ";
+    cin>>n;
+    for(int i=0;i<n;i++)
+    {
+        for(int j=0;j<(n-i-1);j++)
+        {
+            cout<<"  ";
+        }
+        for(int k=0;k<=i;k++)
+		{
+			cout<<alphabet[k]<<" ";
+		}
+		if(i>0)
+		{
+			for(int l=i-1;l>=0;l--)
+			{
+				cout<<alphabet[l]<<" ";
+			}
+		}
+		cout<<endl;
+  	}
+}
+
+//18
+#include <iostream>
+#include <string>
+using namespace std;
+int main()
+{
+    string alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+    int n,count;
+    cout<<"Enter the number of lines: ";
+    cin>>n;
+    count = n-2;
+    for(int i=0;i<n;i++)
+    {
+    	for(int j=0;j<=i;j++)
+    	{
+    		cout<<alphabet[count+j+1];	
+		}
+		count--;
+		cout<<endl;
+  	}
+}
+
+//19
+#include<iostream>
+using namespace std;
+int main()
+{
+	int n;
+	cout<<"enter the number of lines: ";
+	cin>>n;
+	for(int i=0;i<n;i++)
+	{
+		for(int j=0;j<n-i;j++)
+		{
+			cout<<" *";
+		}
+		for(int k=0;k<(i*2);k++)
+		{
+			cout<<"  ";
+		}
+		for(int l=0;l<n-i;l++)
+		{
+			cout<<" *";
+		}
+		cout<<endl;
+	}
+	for(int i=0;i<n;i++)
+	{
+		for(int j=0;j<=i;j++)
+		{
+			cout<<" *";
+		}
+		for(int k=0;k<((2*(n-i))-2);k++)
+		{
+			cout<<"  ";
+		}
+		for(int l=0;l<=i;l++)
+		{
+			cout<<" *";
+		}
+		cout<<endl;
+	}
+}
+
+//20
+#include<iostream>
+using namespace std;
+int main()
+{
+	int n;
+	cout<<"enter the number of lines: ";
+	cin>>n;
+	for(int i=0;i<n;i++)
+	{
+		for(int j=0;j<=i;j++)
+		{
+			cout<<"* ";
+		}
+		for(int k=0;k<(n*2)-(2*i)-2;k++)
+		{
+			cout<<"  ";
+		}
+		for(int l=0;l<=i;l++)
+		{
+			cout<<"* ";
+		}
+		cout<<endl;
+	}
+	for(int i=1;i<n;i++)
+	{
+		for(int j=0;j<n-i;j++)
+		{
+			cout<<"* ";
+		}
+		for(int k=0;k<(i*2);k++)
+		{
+			cout<<"  ";
+		}
+		for(int l=0;l<n-i;l++)
+		{
+			cout<<"* ";
+		}
+		cout<<endl;
+	}
+}
+
+//21
+/*
+* * * *
+*     *
+*     *
+* * * *
+*/
+
+#include<iostream>
+using namespace std;
+int main()
+{
+	int n;
+	cout<<"Enter the number of lines: ";
+	cin>>n;
+	for(int i=0;i<n;i++)
+	{
+		if(i==0 || i==(n-1))
+		{
+			for(int j=0;j<n;j++)
+			{
+				cout<<"* ";
+			}
+		}
+		else
+		{
+			cout<<"* ";
+			for(int k=0;k<(n-2);k++)
+			{
+				cout<<"  ";
+			}
+			cout<<"* ";
+		}
+		cout<<endl;
+	}
+}
+

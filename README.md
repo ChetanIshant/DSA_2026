@@ -16,7 +16,7 @@ This repository contains my daily C++ solutions and practice problems as part of
 
 - C++
 
-## 📚 Topics
+## 📚 Topics covered
 
 - Patterns
 - Arrays
@@ -37,7 +37,8 @@ This repository contains my daily C++ solutions and practice problems as part of
 - Sliding Window
 - Two Pointers
 - Binary Search
-- And more...
 
+
+## author: Chetan
 
 ---

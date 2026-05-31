@@ -10,7 +10,7 @@ This repository contains my daily C++ solutions and practice problems as part of
 - Improve problem-solving and analytical thinking
 - Master core data structures and algorithms
 - Prepare for technical interviews and coding assessments
-- Track my learning progress throughout 2026
+- Track my learning progress throughout 2026 
 
 ## 💻 Language
 

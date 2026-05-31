@@ -1,5 +1,6 @@
 //                    # This file includes all the pattern codes as per strivers A to Z DSA sheet
 
+
 //1
 #include<iostream>
 using namespace std;
